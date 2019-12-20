@@ -1,0 +1,52 @@
+@media (max-width: 1199.98px){
+    .content .contact-description{
+        font-size: 20px;
+    }
+    .mac{
+        margin-left: -30px;
+    }
+}
+@media (max-width: 991.98px){
+    .content .contact-description{
+        font-size: 20px;
+    }
+    .mac{
+        margin-left: -10px;
+    }
+    .mobile-btn{
+        display: flex;
+        z-index: 10;
+    }
+    .header-top-menu{
+        display: none;
+    }
+    .show-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #6c6c6c;
+        z-index: 9;
+    }
+}
+@media (max-width: 767.98px){
+    .content .content-description{
+        font-size: 15px;
+    }
+    .mac{
+        margin-left: -5px;
+    }
+}
+@media (max-width: 575.98px){
+    .content .content-description{
+        font-size: 15px;
+    }
+    .mac{
+        margin-left: -5px;
+    }
+}
